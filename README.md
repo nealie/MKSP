@@ -2,7 +2,9 @@
 
 ## Modular Keyboard for Small Printers
 
-I wanted to print an ortholimear keyboard using my Prusa Mini 3d printer, 
+![Mk1](Images/Mk1.jpg)
+
+I wanted to print an ortholinear keyboard using my Prusa Mini 3d printer, 
 but most case designs are just too wide for this diminuitive printer.
 Instead I decided to design one myself using FreeCAD.
 
