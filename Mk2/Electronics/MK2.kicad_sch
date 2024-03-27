@@ -1,0 +1,85 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a539fec8-2cf9-4bf6-8a55-119f0be33479)
+
+  (paper "A4")
+
+  (title_block
+    (title "Keyboard Mk2")
+    (rev "1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 109.22 39.37) (size 72.39 109.22) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 408d0573-3246-4580-b8a5-92ae7b9e703f)
+    (property "Sheetname" "Controller" (at 109.22 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "controller.kicad_sch" (at 109.22 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 109.22 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field3" "" (at 109.22 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "" (at 109.22 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MK2"
+        (path "/a539fec8-2cf9-4bf6-8a55-119f0be33479" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 16.51 31.75) (size 90.17 125.73) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7c483736-88d9-4cc1-92c7-867410553870)
+    (property "Sheetname" "Left Side" (at 16.51 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "left.kicad_sch" (at 16.51 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 16.51 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MK2"
+        (path "/a539fec8-2cf9-4bf6-8a55-119f0be33479" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 186.69 30.48) (size 93.98 123.19) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f79a317e-0c6c-4c2a-9119-179527e587aa)
+    (property "Sheetname" "Right Side" (at 186.69 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "right.kicad_sch" (at 186.69 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 186.69 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "MK2"
+        (path "/a539fec8-2cf9-4bf6-8a55-119f0be33479" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
